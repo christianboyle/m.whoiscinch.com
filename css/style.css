@@ -1,0 +1,427 @@
+.no {
+letter-spacing:-1000em;
+}
+html > body .no {
+letter-spacing:normal;
+overflow:hidden;
+text-indent:-999em;
+}
+
+@font-face {
+	font-family: 'nevisBold';
+	src: url('../fonts/nevis-webfont.eot');
+	src: local('?'), url('../fonts/nevis-webfont.woff') format('woff'), url('../fonts/nevis-webfont.ttf') format('truetype'), url('../fonts/nevis-webfont.svg#webfontGh04WW6M') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'adventExtraBold';
+    src: url('../fonts/advent_bold-webfont.eot');
+    src: url('../fonts/advent_bold-webfont.eot?iefix') format('eot'),
+         url('../fonts/advent_bold-webfont.woff') format('woff'),
+         url('../fonts/advent_bold-webfont.ttf') format('truetype'),
+         url('../fonts/advent_bold-webfont.svg#webfont3oz6FwR1') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'adventBold';
+    src: url('../fonts/advent_bold_semi-webfont.eot');
+    src: url('../fonts/advent_bold_semi-webfont.eot?iefix') format('eot'),
+         url('../fonts/advent_bold_semi-webfont.woff') format('woff'),
+         url('../fonts/advent_bold_semi-webfont.ttf') format('truetype'),
+         url('../fonts/advent_bold_semi-webfont.svg#webfontPUgcMvfS') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+* {
+  margin:0;
+  padding:0;
+}
+html {
+  height: 100%; 
+}
+body { 
+  font: medium/1.5em 'nevisBold', Arial, Verdana, sans-serif;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  -webkit-perspective: 800;
+  width: 100%;
+  background:#D6D6D6;
+  text-transform: uppercase;
+}
+#wrapper{
+   padding:10px;
+}
+#header{
+   position:relative;
+   background-color: #fff;
+   padding:10px;
+   text-align:center;
+}
+
+#header img { max-width:100%; }
+
+img { border:none; }
+
+#content{
+   position:relative;
+   background-color: #fff;
+   margin:10px 0 0 0;
+}
+
+#nav { font-size: medium; position:relative; width:100%; }
+
+/* more lists */
+.more-list { list-style: none; margin:10px 0 0 0; line-height:150%; font-size:13px; }
+.more-list li { margin:2px 0 0 0; }
+.more-list span { margin:0 0 0 10px; font-size:13px; }
+.more-list li a {
+  height:20px; 
+  background:#fff;
+  background-image: url(../img/arrow-right.png);
+  background-repeat: no-repeat;
+  background-position: 96% 50%;
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#000;
+}
+
+
+#view_full_website_container { min-height:10em; text-align:center; padding:1em 0 0 0; }
+
+#view_full_website_container a:link, a:visited, a:hover, a:active { font-size:13px; color:#000; text-decoration:none; }
+
+#footer{
+   position:relative;
+   background-color: #fff;
+   padding:30px 10px;
+   margin:10px 0 0 0;
+   font-size:small;
+}
+
+
+
+.blog_content { border-bottom:10px solid #d3d3d3; padding:40px; }
+
+.tumblr_posts { font-size:1em; padding:0 0 !important; }
+
+.tumblr_posts .tumblr_post { border-bottom:10px solid #d3d3d3; }
+
+.tumblr_post { padding:20px; }
+
+/* ABOUT */
+
+.about_content { padding:40px 40px 0 40px; }
+
+#who_is_cinch { float:left; padding:15px 0 0 0; }
+#who_is_cinch h1 { padding:0 0 15px 0; }
+#who_is_cinch figure { padding:0 0 40px 0; } 
+#who_is_cinch p { line-height:200%; font-family:"adventBold",arial,sans-serif; font-size:.6em; letter-spacing:1px; }
+#the_team { float:left; width:100%; font-family:"nevisBold",arial,sans-serif; margin:-15px auto 0 auto; }
+#the_team section { padding:0 0 30px 0; max-width:321px; margin:0 auto; }
+#the_team section span { display:block; }
+#the_team img { max-width:100%; }
+.name { font-size:14px; color:#333; }
+.title { font-size:9px; color:#999; margin:3px 0 0 0; }
+#the_team p { font-size:10px; line-height:150%; margin:10px 0 0 0; font-family:arial, verdana, sans-serif; }
+
+
+/* CONTACT */
+
+.contact_content { padding:40px 40px 0 40px; }
+
+#contact_information_container { width:100%; font-family: "nevisBold";  poasition:relative; }
+#contact_information { background:#333333; margin:40px 0; padding:20px; color:#fff; line-height:150%; font-size:12px; color:#fff;  }
+#contact_information a:link,a:hover,a:visited { font-family: "nevisBold"; width:100%; color:#fff; font-size:12px; }
+#contact_information h4,h6 { float:left; margin:20px 0 0 0; width:100%; }
+
+#info_bubble_container { float:left; width:42px; height:39px; overflow:hidden; padding:0 20px 0 0; margin:4px 0 0 0; }
+
+/* CONTACT FORM SOCIAL MEDIA NAV */
+#csm_container { width:100%; text-align:center; padding:30px 0 0 0; }
+#contact_social_media_navigation ul li { margin:0 auto; }
+#contact_social_media_navigation { z-index:1; margin:40px auto 0 auto; }
+#contact_social_media_navigation a { display: block; }
+#contact_social_media_navigation img { max-width:100%; }
+
+#twitter_me_this a:hover, #facebook_friends_forever a:hover, #our_flickr a:hover { background-position:top left; }
+
+#contact_form { poasition:relative; }
+#contact_form h1 { padding:0 0 35px 0; font-family: "nevisBold"; width:100%; }
+#contact_form h2 { padding:0 0 0 0; font-family: "nevisBold"; width:100%; font-size:11px; padding:0 90px 0 0; color:#666666; line-height:150%; }
+
+#form_container { width:100%; padding:0 0 40px 0; }
+
+#form_container input,textarea { font-size:15px; }
+
+#response { font-size:15px; color:#ee0000; text-align:left; margin:0 0 0 10px; width:100%; }
+#loading { float:left; margin:30px 10px 0 15px; display:none; }
+
+label {
+  color:#666666; 
+  font-family: "nevisBold";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.034em;
+  word-spacing: 0.108em;
+  line-height: 1.12em;
+  text-align: left;
+  float: left; 
+  width: 100%;
+  height: 35px;
+}
+
+#get_at_me input:focus, #get_at_me textarea:focus {
+	background-color:#cccccc;	
+	border:1px solid #999999;
+	border-bottom:none;
+}
+
+#get_at_me #submit:focus {
+	background:url(../img/contact/submit.png) no-repeat; border:none; ;
+}
+
+#your_name_container { width:100%; }
+
+#your_name_label { width:81px; height:15px; float:left; background:url(../img/contact/name-label.jpg) no-repeat; }
+
+#your_name_input {
+background:#ebebeb;
+width:100%;
+padding:8px 3px;
+margin:3px 0 13px 0;
+border:1px solid #999999;
+border-right:none;
+border-bottom:none;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px; /* future proofing */
+-khtml-border-radius: 4px; /* for old Konqueror browsers */
+}
+
+#email_label { width:99px; height:17px; float:left; background:url(../img/contact/email-label.jpg) no-repeat; }
+
+#email_container { width:100%; }
+#email { 
+background:#ebebeb;
+width:100%;
+padding:8px 3px;
+margin:3px 0 13px 0;
+border:1px solid #999999;
+border-right:none;
+border-bottom:none;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px; /* future proofing */
+-khtml-border-radius: 4px; /* for old Konqueror browsers */
+}
+
+#phone_label { width:99px; height:16px; float:left; background:url(../img/contact/phone-label.jpg) no-repeat; }
+
+#phone_container { width:100%; }
+#phone { 
+background:#ebebeb;
+width:100%;
+padding:8px 3px;
+margin:3px 0 13px 0;
+border:1px solid #999999;
+border-right:none;
+border-bottom:none;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px; /* future proofing */
+-khtml-border-radius: 4px; /* for old Konqueror browsers */
+}
+
+#how_label { width:190px; height:16px; float:left; background:url(../img/contact/hear-label.jpg) no-repeat; }
+
+#how_container { width:100%; }
+#how { 
+background:#ebebeb;
+width:100%;
+padding:8px 3px;
+margin:3px 0 13px 0;
+border:1px solid #999999;
+border-right:none;
+border-bottom:none;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px; /* future proofing */
+-khtml-border-radius: 4px; /* for old Konqueror browsers */
+}
+
+#questions_label { width:166px; height:17px; float:left; background:url(../img/contact/questions-label.jpg) no-repeat; }
+
+#questions_container { width:100%; }
+#questions_textarea { 
+background:#ebebeb;
+width:100%;
+height:160px;
+padding:8px 3px;
+margin:3px 0 0 0;
+border:1px solid #999999;
+border-right:none;
+border-bottom:none;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px; /* future proofing */
+-khtml-border-radius: 4px; /* for old Konqueror browsers */
+}
+
+#submit { width:100%; min-width:182px; height:34px; background:url(../img/contact/submit.jpg) top left no-repeat; border:none; margin:20px 0 0 0; outline:none; padding:0 0 20px 0; }
+#submit:hover { background-position:bottom left; }
+
+.asterisk { font-size:13px; color:#66cccc; margin:0 0 0 3px; }
+
+/* 3.2 =Image Grid (Work)
+---------------------------------------------------------------------- */
+
+#our_work { width:100%; }
+
+.work_content { padding:40px; }
+
+.index_work_content { padding:40px; }
+
+.image-grid:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+.image-grid li {
+  text-align: center;
+  font-family: "nevisBold", Verdana, sans-serif;
+  line-height: 155%;
+  color: #ccc;
+  overflow: hidden;
+  font-size:11px;
+  text-transform:uppercase;
+  border:15px solid #eee;
+}
+
+.image-grid li img,
+.image-grid li strong img {
+	max-width:100%;
+}
+
+.image-grid li strong {
+  color: #fff;
+}
+
+#load-webbies { list-style:none; width:100%; height:47px; margin:30px 0 0 0; }
+#load-webbies li a { height:47px; }
+#applications { width:100%; float:left; }
+#applications a:link, a:hover, a:active, a:focus { text-decoration:none; outline:0; }
+#applications li a { display:block; }
+
+.image-grid img { max-width:100%: }
+
+
+.project_info_container { width:100%; float:left; padding:5px 0; background:#eee; margin:-4px 0 0 0; }
+.project_name { float:left; width:70%; }
+
+.project_name h1 {
+  font-family: "nevisBold", Verdana, sans-serif;
+  line-height: 155%;
+  color: #333;
+  overflow: hidden;
+  text-transform:uppercase;
+  text-align:left;
+  font-size:14px;
+  margin:10px 0 0 0;
+}
+
+.project_name h2 {
+  font-family: "Times New Roman",Georgia,Times,serif;
+  line-height: 155%;
+  color: #999;
+  overflow: hidden;
+  font-size:12px;
+  text-transform:lowercase;
+  text-align:left;
+  font-style:italic;
+  font-weight:bold;
+}
+
+.view_project {
+  width:30%;
+  text-align:right;
+  font-family: Arial, Verdana, sans-serif;
+  line-height: 100%;
+  color: #333;
+  overflow: hidden;
+  font-size:11px;
+  text-transform:uppercase;
+  text-decoration:none;
+  margin:25px 0 0 0; 
+  font-weight:bold;
+  font-size:11px;
+}
+
+li:hover .project_info_container {
+background:#ddd;
+}
+
+li:hover > .webbies {
+border:15px solid #ddd;
+} 
+
+ul li{ cursor:pointer; }
+
+.image-grid li:hover { border:15px solid #ddd; }
+
+.image-grid li a { outline:none; }
+
+#who_is_cinch { width:100%; padding:0 0 30px 0; }
+
+
+figure { padding:0 0 20px 0; width:100%; margin:0 auto; text-align:center; }
+
+figure img { max-width:100%; }
+
+figcaption {
+  font-family: "Times New Roman",Georgia,Times,serif;
+  line-height: 155%;
+  color: #999;
+  font-size:14px;
+  text-transform:lowercase;
+  text-align:center;
+  font-style:italic;
+  font-weight:bold;
+  padding:10px 0;
+}
+
+/*
+ *  CSS3 Media queries
+ */
+
+@media all and (orientation:portrait) { 
+#info_bubble_container { width:100%; padding:0 0 15px 0; }
+}
+@media all and (orientation:landscape) {
+#contact_information { padding:40px; }
+}
+
+ 
+/*================================================= BEGIN CLEARFIX FOR FLOAT STYLES ============================*/
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix {display:inline-block;_height: 1%;}
+.clearfix {display:block;}
+
+
